@@ -1,0 +1,9 @@
+.bg {
+    background: url(../img/bg/bg_Blur.png);
+    width: 1401px;
+    height: 801px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+    position: absolute;
+}

@@ -1,0 +1,144 @@
+.nav02 {
+    width: 261.5px;
+    min-height: 801px;
+    background: #25272A;
+    opacity: 0.75;
+}
+
+.nomad_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px 0 26px;
+}
+
+.nomad_list__one {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 34px;
+}
+
+.nomad_list__one h2 {
+    padding-right: 5px;
+}
+
+.nomad_list__one img {
+    opacity: 0.7;
+}
+
+.nomad_list__icon {
+    opacity: 0.6;
+}
+
+
+.all_treads {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #919191;
+    font-size: 14px;
+    margin: 15px 150px 0 24.5px;
+}
+
+.all_treads img {
+    padding-right: 11px;
+}
+
+.channels {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #919191;
+    margin: 31.5px 25px 0 24.5px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sharp {
+    position: relative;
+    color: #B5B5B5;
+    margin: 14px 24.5px 0 23.5px;
+    height: 311px;
+}
+
+.sharp p {
+    padding-left: 13px;
+}
+
+.sharp p:not(:last-child) {
+    padding-bottom: 12px;
+}
+
+.sharp p:first-child {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.sharp_1 {
+    padding-bottom: 12px;
+}
+
+.sharp_one {
+    position: absolute;
+    left: 0;
+    top: -4px;
+    z-index: 0;
+    width: 213.5px;
+    height: 30px;
+    background: #FFFFFF;
+    opacity: 0.2;
+    border-radius: 5px;
+}
+
+
+
+
+
+.friends {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #919191;
+    margin: 31.5px 25px 0 24.5px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+.friends_status {
+    margin: 28.5px 0 0 23px;
+}
+
+.friend {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #B5B5B5;
+    height: 34px;
+    
+}
+
+.friend:not(:last-child) {
+    padding-bottom: 11px;
+}
+
+.avatar {
+    margin-left: 10px;
+    margin-right: 15px;    
+}
+
+.avatar  img {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+}

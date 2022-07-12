@@ -1,0 +1,89 @@
+.profile {
+    background: rgba(208, 211, 216, 1);
+    position: relative;
+}
+
+.profile_info {
+    height: max-content;
+}
+
+.profile_info .name {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15.5px 0 0 20.5px;
+}
+
+.profile_info .position {
+    font-size: 12px;
+    color: #5F6164;
+    margin: 3.5px 0 0 21px;
+}
+
+.profile_info .socials {
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 18px;
+}
+
+.profile_info .soc {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    padding-right: 6.5px;
+}
+
+.profile_info .soc img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.message_btns {
+    display: flex;
+    align-items: center;
+    margin: 23px 0 0 18px;
+}
+
+.message_btns button {
+    background: #3577EF;
+    color: #FFFFFF;
+    font-size: 13px;
+    border-radius: 4px;
+    height: 25px;
+    
+}
+
+.message_btns button:first-child {
+    width: 133.5px;
+    margin-right: 2.5px;
+}
+
+.message_btns button:last-child {
+    width: 25.5px;
+}
+
+.profile_data {
+    margin: 14px 0 0 20px;
+}
+
+.profile_data .question {
+    font-size: 12px;
+    line-height: 14px;
+    color: #5F6164
+}
+
+.profile_data .answer {
+    margin: 2px 0 11.5px 0;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.profile_icon_footer {
+    position: absolute;
+    bottom: 28.5px;
+    right: 23.5px;
+}
+
+
+

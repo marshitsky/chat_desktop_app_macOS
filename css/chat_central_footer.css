@@ -1,0 +1,22 @@
+.chat_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 823.5px;
+    padding: 15.5px 0 0 23px;
+}
+
+.chat_footer__left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.chat_footer__left img {
+    padding-right: 18.5px;
+}
+
+.chat_footer__left span {
+    font-size: 14px;
+    color: #8D8D8D;
+}

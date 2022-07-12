@@ -1,0 +1,92 @@
+.chat {
+    width: 870px;
+    height: 801px;
+    background: #FFFFFF;
+}
+
+
+
+.general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31.5px 1px 14.5px 0.5px;
+}
+
+.general_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 23.5px;
+}
+
+.general_left h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding-right: 5px;
+}
+
+.general_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 23.5px;
+}
+
+.general_right h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A4A4A4;
+    padding-left: 6px;
+}
+
+.search {
+    position: relative;
+    padding-left: 24px;
+}
+
+.search img {
+    position: absolute;
+    top: 9px;
+    right: 15.5px;
+}
+
+.search input {
+    width: 241px;
+    height: 33px;
+    background: transparent;
+    border: 0.5px solid rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    padding-left: 16.5px;
+}
+
+.ring {
+    position: relative;
+    padding-left: 23.5px;
+    width: 16.5px;
+    height: 15.5px;
+
+}
+
+.ring img:last-child {
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.colon img {
+    padding-left: 19.5px;
+    height: 16.5px;
+    padding-top: 4px;
+}
+
+.general_hr hr {
+    width: 100%;
+    border: 0;
+    color: #000000;
+    background: #000000;
+    height: 2px;
+    opacity: 0.24;
+}
